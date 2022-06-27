@@ -1,0 +1,446 @@
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #7ca0b6;
+    
+   
+} 
+
+
+
+
+@media (max-width: 480px)
+{
+
+
+    nav ul li {
+   
+        display: block;
+      }
+    
+
+nav {  
+    
+    text-align: center;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+
+
+nav ul li a { 
+   
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #363636;
+    font-weight: 400;
+ 
+}
+
+header img {
+  width: 100%;
+   
+}
+
+
+
+
+
+.foto_articulo {
+
+border-color: #cecece;
+border-style: solid;
+border-width: 2px;
+width: 100%;
+
+}
+
+
+header h1 {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0px;
+
+}
+
+footer {
+
+    text-align: center;
+
+}
+
+
+footer p{
+
+   font-weight: 300;
+}
+
+
+footer h3{
+
+    display: inline;
+}
+
+
+
+section{
+
+    display: inline;
+
+}
+
+
+
+
+.formulario
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+margin:20px 5%;
+
+
+
+}
+
+
+input, select{
+
+margin-bottom:20px;
+height: 20px;
+
+}
+
+
+
+.caja img {
+width: 100%; 
+border-radius: 10px;
+}
+
+.galeria
+ {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+    gap: 10px 20px;
+    padding-top: 20px;
+    margin: auto;
+    width: 100%;
+    grid-template-areas:
+      "."
+      "."
+      ".";
+  }
+  
+
+.principal
+{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 2fr; 
+    gap: 9px 4px; 
+    grid-template-areas: 
+      "."
+      "."; 
+
+
+
+}
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1440px)
+{
+
+
+    
+    nav {  
+        
+        text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+    
+    nav ul li {
+       
+        display: inline;
+      }
+    
+    nav ul li a { 
+       
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #363636;
+        font-weight: 400;
+     
+    }
+    
+    header img {
+      width: 100%;
+       
+    }
+    
+    
+    
+    
+    .foto_articulo {
+    
+    border-color: #cecece;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    
+    }
+    
+    
+    header h1 {
+    
+        text-align: center;
+        font-size: 5rem;
+    
+    }
+    
+    footer {
+    
+        text-align: center;
+    
+    }
+    
+    
+    footer p{
+    
+       font-weight: 300;
+    }
+    
+    
+    footer h3{
+    
+        display: inline;
+    }
+    
+    
+    
+    section{
+    
+        display: inline;
+    
+    }
+    
+    
+    
+    
+    .formulario
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin:20px 30%;
+    
+    
+    
+    }
+    
+    
+    input, select{
+    
+    margin-bottom:20px;
+    height: 20px;
+    
+    }
+    
+    
+    
+    .caja img {
+    width: 100%; 
+    border-radius: 10px;
+    }
+    
+    .galeria
+     {  
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+        grid-template-rows: repeat (2, 1fr);
+        gap: 10px 20px;
+        padding-top: 20px;
+        margin: auto;
+        width: 100%;
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ". . .";
+      }
+      
+    
+    .principal
+    {
+        display: grid; 
+        grid-template-columns: 1.5fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 9px 4px; 
+        grid-template-areas: 
+          ". ."; 
+    
+    
+    
+    }
+    section table {
+       
+       width: 100%;
+    }
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 768px)
+{
+
+
+    
+    nav {  
+        
+        text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+    
+    nav ul li {
+       
+        display: inline;
+      }
+    
+    nav ul li a { 
+       
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #363636;
+        font-weight: 400;
+     
+    }
+    
+    header img {
+      width: 100%;
+       
+    }
+    
+    
+    
+    
+    .foto_articulo {
+    
+    border-color: #cecece;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    
+    }
+    
+    
+    header h1 {
+    
+        text-align: center;
+        font-size: 5rem;
+    
+    }
+    
+    footer {
+    
+        text-align: center;
+    
+    }
+    
+    
+    footer p{
+    
+       font-weight: 300;
+    }
+    
+    
+    footer h3{
+    
+        display: inline;
+    }
+    
+    
+    
+    section{
+    
+        display: inline;
+    
+    }
+    
+    
+    
+    
+    .formulario
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin:20px 30%;
+    
+    
+    
+    }
+    
+    
+    input, select{
+    
+    margin-bottom:20px;
+    height: 20px;
+    
+    }
+    
+    
+    
+    .caja img {
+    width: 100%; 
+    border-radius: 10px;
+    }
+    
+    .galeria
+     {  
+        display: grid;
+        grid-template-columns: repeat (2, 1fr);
+        grid-template-rows: repeat (3, 1fr);
+        gap: 10px 20px;
+        padding-top: 20px;
+        margin: auto;
+        width: 100%;
+        grid-template-areas:
+          ". ."
+          ". ."
+          ". .";
+      }
+      
+    
+    .principal
+    {
+        display: grid; 
+        grid-template-columns: 1.5fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 9px 4px; 
+        grid-template-areas: 
+          ". ."; 
+    
+    
+    
+    }
+    
+
+
+}
+
+
